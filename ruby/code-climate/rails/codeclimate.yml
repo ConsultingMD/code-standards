@@ -1,0 +1,90 @@
+---
+engines:
+  brakeman:
+    enabled: true
+    exclude_fingerprints:
+    - f235a5247120d035ff0f269d21fdac2b3f404c8430c2764d32756ea92d30a477
+    - 426e1a7747d4f1f92ae63bb5f1c2d07d6815746466988e2ec8f1adac728dc1cd
+    - d23cdd4ff53da598e3b218376555c4f2179791c4abde7edbeb370e1f836c352b
+  bundler-audit:
+    enabled: true
+  csslint:
+    enabled: true
+  scss-lint:
+    enabled: true
+    checks:
+      Shorthand:
+        enabled: false
+    exclude_fingerprints:
+    - 66cbf4f30a4511c32ae6a725db36327f
+    - f5963d6bb993b83e0ac60a8ad2e798df
+    - 240de29ffabf10464758d45fe456c3d6
+    - c72ec6a87aa2302ed97f06105252b82d
+    - 420901d412eb4e7b2d0b4f015bbecbc8
+    - 0c5383e3dd4afd72316d66f019d12cfc
+    exclude_paths:
+    - "**/*_split?.css"
+    - app/assets/stylesheets/morph/theme/base/style/spacing.scss
+  coffeelint:
+    enabled: true
+    checks:
+      max_line_length:
+        enabled: false
+  eslint:
+    channel: eslint-3
+    enabled: true
+    extensions:
+    - .es6
+    - .js
+    - .jsx
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+    exclude_fingerprints:
+    - 0f4a1f6ee03afcbc0debef591d8d01d9
+    - fbcc01d30bd7cf916e9c57a968a2aac5
+    checks:
+      Rubocop/Metrics/ParameterLists:
+        enabled: false
+      Rubocop/Style/StringLiterals:
+        enabled: false
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+    exclude_fingerprints:
+    - 78b5f5c9e3aaa698358713c77c995bd2
+    - 4ae790d63cf390fcb8494439769018c6
+    - c247519de5a5ac9c79b4ad533af33b76
+    - 2a2c92d7ddec5bde32f01d73617ac8da
+    - f915e2bcc91e2355e67269e4e65bd068
+    - ecfc22cc8708fe6e2baeb74ca8098041
+    - 70ad2200c84fc797322a65200917d03f
+    - cad0994b1677b02fef6ae8f49570a964
+    - 6ada14c0d6f93a5aa5366b4ff44fe57e
+    - fff17dd835b1fd13ce91f70a22cb1bc9
+    - bac8aeeec2e816989f939286e9d4fdf0
+    - aaaae30627cc965d7d30da8d8421635a
+  shellcheck:
+    enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.css"
+  - "**.coffee"
+  - "**.es6"
+  - "**.js"
+  - "**.jsx"
+  - "**.rb"
+exclude_paths:
+- "**/__tests__/"
+- "**/node_modules/"
+- app/assets/webpack/**/*
+- config/**/*
+- db/**/*
+- script/**/*
+- spec/**/*
+- vendor/**/*
