@@ -2,3 +2,6 @@
 
 Attribute:
   enabled: true
+
+TooManyStatements:
+  enabled: false
