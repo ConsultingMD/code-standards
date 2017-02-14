@@ -19,6 +19,9 @@ Metrics/MethodLength:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+Metrics/BlockLength:
+  Enabled: false
+
 Style/TrailingCommaInLiteral:
   Enabled: false
 
