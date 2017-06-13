@@ -28,5 +28,5 @@ Style/TrailingCommaInLiteral:
 Style/Documentation:
   Enabled: false
 
-Style/DotPosition:
+Layout/DotPosition:
   Enabled: false

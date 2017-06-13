@@ -81,13 +81,13 @@ Style/BlockDelimiters:
 
 # prefer python style default positional arguments
 # def something(default_one='some thing')
-Style/SpaceAroundEqualsInParameterDefault:
+Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
   SupportedStyles:
     - space
     - no_space
 
-Style/AlignParameters:
+Layout/AlignParameters:
   # Alignment of parameters in multi-line method calls.
   #
   # The `with_first_parameter` style aligns the following lines along the same
