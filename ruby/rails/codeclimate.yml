@@ -44,11 +44,6 @@ engines:
     exclude_fingerprints:
     - 0f4a1f6ee03afcbc0debef591d8d01d9
     - fbcc01d30bd7cf916e9c57a968a2aac5
-    checks:
-      Rubocop/Metrics/ParameterLists:
-        enabled: false
-      Rubocop/Style/StringLiterals:
-        enabled: false
   duplication:
     enabled: true
     config:
