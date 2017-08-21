@@ -19,6 +19,9 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   Enabled: false
 
+Metrics/ParameterLists:
+  Enabled: false
+
 Metrics/PerceivedComplexity:
   Enabled: false
 
@@ -26,6 +29,9 @@ Style/Documentation:
   Enabled: false
 
 Style/DotPosition:
+  Enabled: false
+
+Style/StringLiterals:
   Enabled: false
 
 Style/TrailingCommaInLiteral:
