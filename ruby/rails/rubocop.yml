@@ -27,7 +27,6 @@ AllCops:
     - '**/Vagabondfile'
   Exclude:
     - 'vendor/**/*'
-    - 'spec/**/*'
     - 'script/**/*'
   # Default formatter will be used if no -f/--format option is given.
   DefaultFormatter: progress
