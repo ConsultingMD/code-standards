@@ -34,18 +34,6 @@ Style/Documentation:
 Style/DotPosition:
   Enabled: false
 
-# Allow formatting like
-#
-#   return some_value if some_really_long_condition_that_eats_up_the_line ||
-#     another_pretty_long_condition_that_would_not_be_readable_if_further_indented
-#
-# instead of requiring formatting like
-#
-#   return some_value if some_really_long_condition_that_eats_up_the_line ||
-#                        another_pretty_long_condition_that_would_not_be_readable_if_further_indented
-Style/MultilineOperationIndentation:
-  Enabled: false
-
 Style/SpaceAroundEqualsInParameterDefault:
   Enabled: false
 

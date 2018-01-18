@@ -79,6 +79,19 @@ Style/BlockDelimiters:
     - proc
     - it
 
+# Require formatting like
+#
+#   return some_value if some_really_long_condition_that_eats_up_the_line ||
+#     another_pretty_long_condition_that_would_not_be_readable_if_further_indented
+#
+# instead of formatting like
+#
+#   return some_value if some_really_long_condition_that_eats_up_the_line ||
+#                        another_pretty_long_condition_that_would_not_be_readable_if_further_indented
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+  IndentationWidth: 2
+
 # prefer python style default positional arguments
 # def something(default_one='some thing')
 Style/SpaceAroundEqualsInParameterDefault:
@@ -105,4 +118,3 @@ Style/AlignParameters:
   SupportedStyles:
     - with_first_parameter
     - with_fixed_indentation
-
