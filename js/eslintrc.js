@@ -6,5 +6,8 @@ module.exports = {
     jquery: true,
     node: true
   },
-  extends: ['airbnb']
+  extends: [
+    'airbnb',
+  ],
+  parser: 'babel-eslint',
 };
