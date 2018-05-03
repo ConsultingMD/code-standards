@@ -31,10 +31,10 @@ Style/Alias:
 Style/Documentation:
   Enabled: false
 
-Style/DotPosition:
+Layout/DotPosition:
   Enabled: false
 
-Style/SpaceAroundEqualsInParameterDefault:
+Layout/SpaceAroundEqualsInParameterDefault:
   Enabled: false
 
 Style/StringLiterals:
