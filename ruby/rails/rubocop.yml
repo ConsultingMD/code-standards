@@ -1,4 +1,0 @@
-inherit_from:
-  - .rubocop-base.yml
-  - .rubocop-overrides.yml
-  - .rubocop-disabled.yml
