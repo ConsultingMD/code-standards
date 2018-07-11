@@ -13,5 +13,4 @@ plugins:
     enabled: true
     config:
       file: "checkstyle.xml"
-
 ```
