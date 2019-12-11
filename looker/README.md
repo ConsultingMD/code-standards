@@ -43,3 +43,8 @@ In addition, the following field names should always have the same meaning:
 * `created_at`: The time the data record was created in the system of record, with at least second and preferably microsecond or better precision, in UTC.
 * `updated_at`: The most time any field of the data record was created in the system of record. UTC, highest precision available.
 * `deleted_at`: The the data record was (soft) deleted in the system of record. Again: UTC, highest precision available.
+
+# Linters
+
+Now that Looker has linters, LookML repos *should* be configured to use them.
+They have not yet.
